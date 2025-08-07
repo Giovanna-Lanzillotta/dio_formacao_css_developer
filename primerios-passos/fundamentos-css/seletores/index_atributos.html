@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>seletores de atributos</title>
+    <style>
+        /*[atrib=value]*/
+        [title~="Streaming"]{
+            background: yellow;
+        }
+        [title|="Streaming"]{
+            background: red;
+            color: white;
+        }
+         [title="Spotify"]{
+            color: darkgreen;
+        }
+         [title="Prime"]{
+            color: lightblue;
+        }
+        [href^="https://"]{
+            background: lightgreen;
+        }
+        [href$="login"]{
+            font-weight: bold;
+            font-size: 24px;
+        }
+        [href*="login"]{
+           font-style: italic;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div>
+        <ul>
+            <li><a title="Streaming-Netflix" href="http://www.login.netflix.com">
+                Netflix
+            </a>
+        </li>
+            <li><a title="Streaming Prime" href="http://primevideo.com/login">
+                Prime Video
+            </a>
+        </li>
+            <li><a title="Spotify" href="https://spotify">
+                Spotify
+            </a></li>
+            <li><a title="Disney">
+                Disney Plus
+            </a></li>
+        </ul>
+    </div>
+</body>
+</html>
