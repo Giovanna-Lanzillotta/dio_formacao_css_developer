@@ -1,0 +1,24 @@
+*{
+    font-family: sans-serif;
+}
+
+.exemplo{
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    border: 30px solid;
+}
+
+#exemplo-1{
+    border-image-source: url(/primerios-passos/estilizacoes-basicas/bordas/image-slice/estrelas.png);
+    border-image-repeat: repeat;
+    border-image-slice: 119 fill;
+    border-image-slice: 119;
+}
+
+
+#exemplo-2{
+    border-image-source: linear-gradient(rgb(82, 147, 231), rgb(71, 255, 246));
+    border-image-slice: 10;
+    
+}

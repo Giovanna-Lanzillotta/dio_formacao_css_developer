@@ -1,0 +1,23 @@
+
+
+*{
+    font-family: sans-serif;
+}
+
+.exemplo{
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    border: 30px solid;
+}
+
+#exemplo-1{
+    border-image-source: url(/primerios-passos/estilizacoes-basicas/fundo-elementos/paisagem.jpeg);
+}
+
+
+#exemplo-2{
+    border-image-source: linear-gradient(red, blue);
+    /* border-image-source: none; */
+    
+}

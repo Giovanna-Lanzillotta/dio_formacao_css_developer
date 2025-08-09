@@ -1,0 +1,35 @@
+*{
+    font-family: sans-serif;
+}
+
+.exemplo{
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    border: 30px solid;
+    margin: 50px auto;
+}
+
+#exemplo-1{
+    border-image-source: url(/primerios-passos/estilizacoes-basicas/bordas/image-slice/estrelas.png);
+    border-image-repeat: repeat;
+    border-image-slice: 119 fill;
+    border-image-slice: 119;
+    border-image-outset: 30px;
+    border-image-outset: 10px;
+    border-image-outset: 1;
+    border-image-outset: 30px 10px 60px 100px;
+}
+
+
+#exemplo-2{
+    border-image-source: linear-gradient(rgb(82, 147, 231), rgb(71, 255, 246));
+    border-image-slice: 10;
+    border-image-outset: 2;
+}
+
+
+#exemplo-resumido{
+    border-image: url(/primerios-passos/estilizacoes-basicas/bordas/image-slice/estrelas.png) 119 / 10px 20px 30px 40px / 1 2  round;
+
+}
