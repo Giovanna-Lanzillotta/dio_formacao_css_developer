@@ -1,0 +1,15 @@
+@import url(/assets/css/global.css);
+
+h1{
+    font-family: Andika;
+}
+
+p{
+    font-family: "Playwrite AU QLD", cursive;
+}
+
+ul{
+    font-family: "Andika", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}

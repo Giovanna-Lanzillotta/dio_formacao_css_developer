@@ -1,0 +1,42 @@
+@font-face {
+  src: url("https://mdn.github.io/shared-assets/fonts/LeagueMono-VF.ttf");
+  font-family: "LeagueMonoVariable";
+  font-style: normal;
+}
+
+*{
+    font-family: 20px "LeagueMonoVariable";;
+}
+
+
+#ultra-condesed{
+    font-stretch: ultra-condesed;
+}
+
+#extra-condesed{
+    font-stretch: extra-condesed;
+}
+
+#usemi-condesed{
+    font-stretch: semi-condesed;
+}
+
+#normal{
+    font-stretch: normal;
+}
+
+#semi-expanded{
+    font-stretch: semi-expanded;
+}
+
+#expanded{
+    font-stretch: expanded;
+}
+
+#extra-expanded{
+    font-stretch: extra-expanded;
+}
+
+#ultra-expanded{
+    font-stretch: ultra-expanded;
+}

@@ -1,0 +1,16 @@
+@font-face {
+    font-family: Roboto;
+    src: url("/assets/fonts/Roboto_SemiCondensed-Regular.ttf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Batata;
+    src: url("/assets/fonts/Roboto-Italic.ttf");
+}
+
+p{
+    font-family: Batata;
+    font-weight: bold;
+    font-weight: lighter;
+}

@@ -1,0 +1,11 @@
+/*
+Em relação ao tamanho da fonte
+*/
+
+p{
+    font-size: 16px; /* line-height: 32; */
+    line-height: 2;  
+    line-height: 50%;
+    line-height: 100%;
+    line-height: 200%;
+}

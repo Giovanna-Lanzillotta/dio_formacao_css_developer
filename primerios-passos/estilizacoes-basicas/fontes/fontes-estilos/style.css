@@ -1,0 +1,12 @@
+code{
+    background: palegreen;
+}
+
+#italic{
+    font-style: italic;
+}
+
+
+#oblique{
+    font-style: oblique;
+}
