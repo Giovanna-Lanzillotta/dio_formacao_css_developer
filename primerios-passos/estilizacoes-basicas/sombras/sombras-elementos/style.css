@@ -1,0 +1,19 @@
+div{
+    width: 200px;
+    height: 200px;
+    border: 10px solid #8f382e;
+    background: #fa8072;
+    margin: 20px auto;
+    
+    box-shadow: inset 10px 30px 20px 7px red;
+    box-shadow: inset 10px 30px 20px 10px red, 10px 30px 20px 10px black;
+
+}
+
+img{
+    width: 500px;
+    height: 200px;
+    margin: 20px auto;
+    object-fit: cover;
+    filter: drop-shadow(10px 10px 5px black);
+}
