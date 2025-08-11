@@ -1,0 +1,15 @@
+code{
+    background-color: papayawhip;
+}
+
+#exemplo-letter-spacing{
+    letter-spacing: 2px;
+    letter-spacing: -2px;
+    letter-spacing: 10px;
+}
+
+#exemplo-word-spacing{
+    word-spacing: 2px;
+    word-spacing: -4px;
+    word-spacing: 12px;
+}

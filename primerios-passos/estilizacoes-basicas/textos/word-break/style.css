@@ -1,0 +1,15 @@
+
+
+.exemplo{
+    width: 120px;
+    color: limegreen;
+    background-color: darkblue;
+}
+
+#break-all{
+    word-break: break-all;
+}
+
+#keep-all{
+    word-break: keep-all;
+}

@@ -1,0 +1,23 @@
+
+.exemplo{
+    width: 200px;
+    color: black;
+    background-color: chartreuse;
+}
+
+p{
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#exemplo-01 p{
+    text-overflow: clip;
+}
+
+#exemplo-02 p{
+    text-overflow: ellipsis;
+}
+
+#exemplo-03{
+    text-overflow: 'ver mais >';  /*Só funciona no navegador frirefox*/
+}

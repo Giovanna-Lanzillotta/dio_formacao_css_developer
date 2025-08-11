@@ -1,0 +1,7 @@
+p{
+    text-transform: capitalize; /*Todo primeiro caractere com letra maiúscula*/
+    text-transform: uppercase; /*Todo o texto em caixa alta*/
+    text-transform: lowercase; /*Todo o texto em minúsculo*/
+    text-transform: initial; /*Valor padrão automaticamente*/
+    text-transform: inherit; /*Herda o valor definido no elemento pai*/
+}
