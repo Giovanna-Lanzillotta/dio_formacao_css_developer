@@ -1,0 +1,24 @@
+
+p{
+    margin: 0;
+}
+
+div{
+    padding: 10px;
+}
+
+.exemplo-01{
+    background-color: yellow;
+    width: 300px;
+    box-sizing: border-box;
+}
+
+.exemplo-02{
+    background-color: palevioletred;
+    box-sizing: border-box;
+    width: calc(100% - 30px);
+    width: calc(100% / 2);
+    width: calc(100% + 30px);
+    width: calc(100% * 2);
+    width: calc(rem + 30px);
+}
