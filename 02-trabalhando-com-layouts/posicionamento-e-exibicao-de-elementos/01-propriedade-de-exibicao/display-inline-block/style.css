@@ -1,0 +1,29 @@
+body{
+    font-family: sans-serif;
+}
+
+.exemplo{
+    background-color: palevioletred;
+}
+
+.inline-block{
+    display: inline-block;
+    width: 200px;
+    height: auto;
+    margin: 8px;
+}
+
+.menu{
+    background-color: plum;
+
+}
+
+.menu ul li{
+    display:inline-block;
+    padding: 20px 40px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+}

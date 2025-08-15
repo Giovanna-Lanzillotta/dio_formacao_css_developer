@@ -1,0 +1,15 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.exemplo{
+    background-color: palevioletred;
+}
+
+#item-02{
+    display: none;
+}
+
+#item-05{
+    visibility: hidden;
+}

@@ -1,0 +1,50 @@
+body{
+    font-family: sans-serif;
+    height: 200vh;
+}
+
+.inline{
+    display: inline-block;
+}
+
+.exemplo{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+#elemento-1{
+    background-color: orange;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+#elemento-2{
+    background-color: palevioletred;
+    position: sticky;
+    top: -30px;
+
+}
+
+#elemento-3{
+    background-color: palegreen;
+}
+
+#elemento-4{
+    background-color: paleturquoise;
+}
+
+#elemento-5{
+    background-color: violet;
+    position: sticky;
+    top: 0;
+
+}
+
+#elemento-6{
+    background-color: blueviolet;
+
+}
