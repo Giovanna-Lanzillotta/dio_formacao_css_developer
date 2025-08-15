@@ -1,0 +1,29 @@
+.container{
+    background: palegreen;
+    margin: 20px;
+    width: 300px;
+    height: 250px;
+    padding: 10px;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    /* row-gap: 10px;
+    column-gap: 20px; */
+    /* gap: 30px 20px; */
+    /* gap: 20px; */
+    /* gap: 10%; */
+    gap: 3rem;
+}
+
+.item{
+    background: orange;
+}
+
+#container-01{
+    flex-direction: row;
+}
+
+#container-02{
+    flex-direction: column;
+}
