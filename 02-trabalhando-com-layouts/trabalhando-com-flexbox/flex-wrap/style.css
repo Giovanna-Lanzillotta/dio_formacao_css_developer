@@ -1,0 +1,26 @@
+.container{
+    background: paleturquoise;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-wrap: wrap-reverse;
+}
+
+.item{
+    background: orange;
+    margin: 10px;
+}
+
+#container-01{
+    flex-direction: row;
+    border: 2px solid orange;
+}
+
+#container-02{
+    flex-direction: column;
+    height: 300px;
+    border: 2px solid orange;
+}

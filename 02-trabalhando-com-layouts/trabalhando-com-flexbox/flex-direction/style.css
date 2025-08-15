@@ -1,0 +1,24 @@
+.container{
+    background: paleturquoise;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+}
+
+.item{
+    background: orange;
+    margin: 10px;
+}
+
+#container-01{
+    /* flex-direction: row; */
+    flex-direction: row-reverse ;
+    border: 2px solid orange;
+}
+
+#container-02{
+    /* flex-direction: column; */
+    flex-direction: column-reverse;
+    height: 300px;
+    border: 2px solid orange;
+}

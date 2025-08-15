@@ -1,0 +1,29 @@
+.container{
+    background: papayawhip;
+    /* padding: 20px; */
+    margin: 20px;
+    width: 300px;
+
+    display: flex;
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    justify-content: space-evenly;
+
+}
+
+.item{
+    background: orange;
+    /* margin: 10px; */
+}
+
+#container-01{
+    border: 2px solid orange;
+    flex-flow: row wrap;
+}
+
+#container-02{
+    border: 2px solid orange;
+    height: 300px;
+    flex-flow: column wrap-reverse;
+}
+
