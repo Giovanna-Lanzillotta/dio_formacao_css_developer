@@ -9,4 +9,6 @@ Aqui estão os desafios e códigos do curso Formação CSS Web Developer da Dio.
           
 
 
-## 01-primerios-passos
+## 01 - primerios-passos
+### 01 - fundamentos-css
+- Foi aprendido neste módulo sobre
