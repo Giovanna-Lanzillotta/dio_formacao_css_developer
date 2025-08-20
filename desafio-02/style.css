@@ -1,0 +1,244 @@
+body{
+    background: #f5f5f5;
+}
+
+/*AREA MENU */
+.menu{
+    width: 1440px;
+    height: 56px;
+    justify-content: space-between;
+    background: #ffffff;
+    display: flex;
+    border: solid 1px #f5f5f5;
+}
+
+/*lado esquerdo*/
+.menu .esquerdo{
+    display: flex;
+    align-items: flex-start;
+    justify-content:flex-start;
+    background: #ffffff;
+}
+
+
+.logo-youtube {
+    width: 90px;
+    height: 20px;
+    padding-left: 80px;
+    padding-top: 18px;
+
+}
+.linhas {
+    width: 24px;
+    height: 24px;
+    padding-top: 16px;
+    padding-left: 24px;
+}
+/* fim do lado esquerdo*/
+
+/*lado do meio*/
+.menu .centro img{
+    width: 404px;
+    height: 40px;
+    align-items: center;
+     padding-top: 5px;
+}
+/*fim do meio*/
+
+/*lado direito*/
+.menu .direito{
+    width: 130px;
+    height: 34px;
+    gap: 24px;
+    flex-direction: row;
+    background: #ffffff;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.icone{
+    width: 24px;
+    height: 24px;
+    gap: 20px;
+}
+
+.avatar{
+    width:24px;
+    height:24px;
+    gap: 20px;
+    border-radius: 50px;
+}
+/*fim do lado direito*/
+/*FIM AREA MENU*/
+
+/*AREA DO VIDEO*/
+
+/*video principal*/
+.video{
+    width: 952px;
+    height: 746px;
+    position: absolute; 
+    top: 84px;
+    left: 75px;
+    padding: 16px;
+    background: #f5f5f5;    
+}
+
+.video img{
+    width: 952px;
+    height: 537px;
+}
+
+.video .titulo{
+    font-family: roboto;
+    font-weight: 600;
+    font-style: bold;
+    font-size: 20px;
+    color: #000000;
+    background: #f5f5f5;
+}
+
+/*fim video principa*/
+
+
+/*dados canal*/
+.infos-canal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+
+/* Container para as duas linhas de texto */
+.nome-canal {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin-right:100px;
+
+}
+
+/* Estilo para o nome do canal */
+.nome-canal .nome {
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.nome-canal .inscritos {
+    font-size: 12px;
+    color: #515151;
+}
+
+.infos-canal img{
+    width: 42px;
+    height: 42px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.infos-canal button {
+    width: 150px;
+    height: 40px;
+    background-color: #CC0000;
+    color: #ffffff;
+    padding: 8px 8px;
+    border: none;
+    border-radius: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right:80px;
+}
+
+.infos-canal button:hover {
+    background-color: #CC1020;
+}
+
+/*fim dados canal*/
+
+/*botoes de classifica*/
+.classifica-icones {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+     margin-right:40px;
+}
+.grupo-icone {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.grupo-icone span {
+    font-size: 14px;
+    color: #606060;
+}
+.classifica-icones img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+
+}
+
+/*fim do botoes de classifica*/
+
+/*FIM DA AREA DO VIDEO*/
+
+/*videos recomendados*/
+.sidebar {
+   /* Dimensões e posicionamento */
+    width: 440px; 
+    height: 938px;
+    position: absolute; /* Essencial para que 'top' e 'left' funcionem */
+    top: 84px;
+    left: 1052px;
+
+    /* Estilos internos */
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background-color: #f5f5f5; /* Adicionando a cor amarela para visualização */
+
+}
+
+.coluna-videos{
+    display: flex;
+    align-items: flex-start;
+    gap: 8px; 
+    background: #f5f5f5;
+}
+
+.coluna-videos img{
+    width: 160px;
+    height: 90px;
+}
+
+.coluna-textos{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 0px; 
+    width: 196px;
+    height: 89px;
+    background: #f5f5f5;
+}
+
+.coluna-textos .titulo{
+    font-family: Roboto;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 12px;
+    color: #000000;
+}
+
+.coluna-textos .canal,
+.coluna-textos .dados {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 10px;
+    color: #515151;
+}
+/*fim videos recomendados*/
