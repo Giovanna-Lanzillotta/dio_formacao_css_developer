@@ -1,0 +1,35 @@
+body{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 100px 3fr 1fr;
+    grid-template-areas:
+    " navbar logo" 
+    "sidebar main"
+    "sidebar footer";
+}
+
+.logo{
+    background: lightblue;
+    grid-area: logo;
+}
+
+nav{
+    background: yellow;
+    grid-area: navbar;
+}
+
+aside{
+    background: plum;
+    grid-area: sidebar;
+}
+
+main{
+    background: skyblue;
+    grid-area: main;
+}
+
+footer{
+    background: lightgreen;
+    grid-area: footer;
+}

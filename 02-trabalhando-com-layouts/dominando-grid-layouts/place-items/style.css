@@ -1,0 +1,35 @@
+body{
+    display: grid;
+    border: 3px solid;
+    height: 80vh;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+
+    gap: 15px;
+    /* align-items: start;
+       justify-items: end; */
+    place-items: start end;
+}
+
+.item-01{
+    background: palegoldenrod;
+}
+
+.item-02{
+    background: paleturquoise;
+}
+
+.item-03{
+    background: palegreen;
+}
+
+.item-04{
+    background: palevioletred;
+}
+
+.item-05{
+    background: cadetblue;
+}
+
+.item-06{
+    background: slateblue;
+}

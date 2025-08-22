@@ -1,0 +1,43 @@
+body{
+    display: grid;
+    border: 3px solid;
+    height: 80vh;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+
+    gap: 15px;
+    /*alinha na horizontal*/
+    justify-items: stretch; /* padrão */
+    justify-items: start;
+    justify-items: end;
+    justify-items: center;
+
+    /*alinha na vertical*/
+    align-items: start;
+    align-items: end;
+    align-items: center;
+    align-items: stretch; /*padrão*/
+}
+
+.item-01{
+    background: palegoldenrod;
+}
+
+.item-02{
+    background: paleturquoise;
+}
+
+.item-03{
+    background: palegreen;
+}
+
+.item-04{
+    background: palevioletred;
+}
+
+.item-05{
+    background: cadetblue;
+}
+
+.item-06{
+    background: slateblue;
+}

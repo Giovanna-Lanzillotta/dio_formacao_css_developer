@@ -1,0 +1,106 @@
+/*EXEMPL0 1 e EXEMPLO 2*/
+.container{
+    border: 2px solid;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) 4fr repeat(2, 1fr);
+    grid-template-rows: 50px 100px 200px;
+}
+
+.item{
+    text-align: center;
+    background-color: orange;
+
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.item-b{
+    text-align: center;
+    background-color: deepskyblue;
+
+    /* grid-column-start: 1; */
+    /* grid-column-end: 4; */
+    /* grid-row-start: 2; */
+    /* grid-row-end: 4; */
+
+    /* grid-column: 1 / 4; */
+    grid-column: 1 / span 3;
+    
+    /* grid-column-end: span 3; */
+    /* grid-row-end: span 2; */
+    /* grid-row: 2 / span 2; */
+    grid-row: span 2;
+}
+
+
+/*EXEMPLO 3*/
+.container-2{
+    border: 3px solid;
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 100px);
+}
+
+.item-c{
+    text-align: center;
+    background-color: deeppink;
+
+}
+
+.selected{
+    background-color: aquamarine;
+
+    /* grid-column: 2 / 3; */
+    /* grid-row:  2 / 3; */
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
+}
+
+
+/*EXEMPLO 4*/
+.container-3{
+    border: 3px solid;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 100px);
+}
+
+.item-d{
+    text-align: center;
+    background-color: salmon;
+
+}
+
+.selected-2{
+    background-color: dodgerblue;
+    /* grid-column: 3 / 3; */
+    /* grid-row: 2 / 3; */
+    grid-column: 3 / span 1;
+    grid-row: 2 / span 1;
+}
+
+
+/*EXEMPLO 5*/
+.container-4{
+    border: 3px solid;
+    display: grid;
+
+    grid-template-columns: [primeira-linha-col] 1fr [segunda-linha-col] 1fr [terceira-linha-col] 1fr [quarta-linha-col];
+    grid-template-rows: [linha-inicio] 100px [linha-meio] 100px [linha-fim];
+}
+
+.item-e{
+    text-align: center;
+    background-color: forestgreen;
+
+}
+
+.selected-3{
+    background-color: darkorchid;
+    grid-column: segunda-linha-col / terceira-linha-col ;
+    grid-row: linha-meio / linha-fim;
+}
