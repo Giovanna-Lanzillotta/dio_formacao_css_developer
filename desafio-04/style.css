@@ -1,0 +1,349 @@
+@media screen and (min-width: 1024px) {
+    /*Discord Home Page Desktop*/
+header{
+    width: 1280px;
+    height: 459px;
+    background-image: url(images/header_background.png);
+}
+
+.header-content{
+    width: 757px;
+    height: 270px;
+    padding-top: 94px;
+    padding-left: 261px;
+    gap: 12px;
+
+}
+
+.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 56px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.conteudo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.buttons{
+    align-items: center;
+    width: 502px;
+    height: 44px;
+    padding-left: 170px;
+    gap: 16px;
+
+}
+
+.button-baixar{
+    width: 205px;
+    height: 44px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    border: none;
+    cursor:pointer;
+}
+
+.button-abrir{
+    width: 281px;
+    height: 44px;
+    border-radius: 20px;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    cursor:pointer;
+}
+
+.section-1{
+    background-color: #ffffff;
+    width: 971px;
+    height: 394px;
+    top: 499px;
+    left: 154px;
+    gap: 16px;
+    display: flex;
+    flex-direction: row;
+}
+
+.section-2{
+    background-color: #F6F6F6;
+    width: 1280px;
+    height: 448px;
+    top: 933px;
+    gap: 16px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.section-2 .textos-section{
+    width: 351px;
+    height: 212px;
+    padding-top: 100px;
+
+}
+
+.section-3{
+    width: 1280px;
+    height: 448pxs;
+    top: 1421px;
+    gap: 16px;
+    background-color: #ffffff;
+        display: flex;
+    flex-direction: row;
+}
+
+.section-3 .textos-section{
+    padding-top: 100px;
+    width: 351px;
+    height: 234px;
+
+}
+
+.section-3 img{
+    width: 607px;
+    height: 394px;
+}
+
+.section-4{
+    width: 1280px;
+    height: 540px;
+    padding-top: 450px;
+    gap: 6px; 
+    background-color: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.section-4 img{
+    width: 784px;
+    height: 508px;
+}
+
+.section-4 .section-titulo{
+    width: 608px;
+    height: 80px;
+    font-size: 40px;
+   padding-left: 400px;
+    margin-top: -300px;
+    margin-bottom: 80px;
+        font-family: Open Sans;
+    font-weight: 800;
+        color: #23272A;
+        font-weight: 800;
+    font-style: normal;
+}
+
+.section-4 .section-dados{
+    font-size: 16px;
+    width: 802px;
+    height: 44px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.textos-section{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.section-titulo{
+    font-family: Open Sans;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 40px;
+    color: #23272A;
+    margin-bottom: 0;
+}
+
+.section-dados{
+    font-family: Open Sans;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: #23272A;
+    padding-bottom: 499px;
+    margin-top: 0;
+}
+
+footer{
+     background-color: #23272A;
+     width: 1280px;
+    height: 134px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 20px; 
+
+}
+
+}
+/*iPhone 13 Pro Max - 1*/
+
+@media screen and (max-width: 428px){
+    body{
+    width: 428px;
+    height: 2792px;
+    }
+
+    header{
+    background-image: url(images/header_background.png);
+    background-position: center;
+}
+
+.header-content{
+    width: 428px;
+    height: 505px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    text-align: center;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.titulo{
+    font-family: fantasy;
+    font-weight: 400;
+    font-size: 32px;
+    color: #ffffff;
+    width: 278px;
+    height: 64px;
+    white-space:break-spaces;
+    padding-right: 120px;
+    letter-spacing: 3px;
+
+}
+
+.conteudo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff;
+    width: auto;
+    height: 132px;
+    margin-top: -6px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.buttons{
+    width: 381px;
+    height: 122px;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    padding-left: 12px;
+    gap: 16px;
+}
+
+.button-baixar{
+    width: 381px;
+    height: 54px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    border: none;
+}
+
+.button-abrir{
+    width: 381px;
+    height: 54px;
+    border-radius: 20px;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+}
+
+.section-1{
+    background-color: #ffffff;
+    width: 428px;
+    height:573px;
+    gap: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.section-titulo{
+    font-family: Open Sans;
+    font-weight: 800;
+    font-style: bolder;
+    font-size: 24px;
+    width: 370px;
+    height: 99px;   
+}
+
+.section-dados{
+    font-family: Open Sans;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    width: 378px;
+    height: 88px;
+    margin: -8px;
+    margin-left: 4px;
+}
+
+.section-1 img{
+    width: 379px;
+    height: 252px;
+}
+
+.section-2{
+    width: 428px;
+     background-color: #F6F6F6;
+
+    }
+
+.section-2 img{
+    width: 379px;
+height: 252px;
+
+
+}
+
+.section-3{
+    width: 428px;
+
+}
+
+.section-3 img{
+    width: 379px;
+height: 252px;
+
+}
+
+.section-4{
+    width: 428px;
+     background-color: #F6F6F6;
+
+}
+
+.section-4 img{
+        width: 379px;
+    height: 252px;
+}
+
+footer{
+    background-color: #23272A;
+    width: 429px;
+    height: 140px;
+       display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 20px; 
+    
+}
+}
