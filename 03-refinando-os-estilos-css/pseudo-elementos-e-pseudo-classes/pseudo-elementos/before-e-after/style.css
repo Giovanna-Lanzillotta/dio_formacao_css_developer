@@ -1,0 +1,36 @@
+code{
+    background-color: lightgray;
+}
+
+.exemplo-1::before{
+    /* content: ""; se não quiser nada coloque vazio entre aspas */
+    content: "❤";
+    color: coral;
+    background-color: darkblue;
+}
+
+.exemplo-1::after{
+    content: "■";
+    color: cornflowerblue;
+    background-color: lightblue;
+}
+
+.card-image{
+    width: 300px;
+    height: 300px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    background: url('/images/baixados.png') no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.card-image::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(transparent, rgb(255, 0, 140));
+}

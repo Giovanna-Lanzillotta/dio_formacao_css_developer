@@ -1,0 +1,9 @@
+code{
+    background-color: lightgray;
+}
+
+input::placeholder{
+    color: lightgoldenrodyellow;
+    background-color: chocolate;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

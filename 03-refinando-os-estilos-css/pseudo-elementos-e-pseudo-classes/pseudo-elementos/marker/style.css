@@ -1,0 +1,13 @@
+code{
+    background-color: lightgray;
+}
+
+summary::marker{
+    color: red;
+    content: " ⮕";
+}
+
+li::marker{
+    color: blueviolet;
+    content: "*";
+}
