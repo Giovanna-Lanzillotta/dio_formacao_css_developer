@@ -1,0 +1,12 @@
+.exemplo:link{
+    color: limegreen;
+    background-color: black;
+    padding: 10px 10px;
+}
+
+a:visited{
+    color: yellow;
+    background-color: blueviolet;
+    padding: 10px 4px;
+}
+
