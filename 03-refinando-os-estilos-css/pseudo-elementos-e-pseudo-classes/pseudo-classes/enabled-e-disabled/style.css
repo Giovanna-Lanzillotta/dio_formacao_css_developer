@@ -1,0 +1,11 @@
+button:disabled{
+    background-color: lightgray;
+    color: grey;
+    border: none;
+}
+
+button:enabled{
+    background-color: greenyellow;
+    color: green;
+    border: 2px solid darkgreen;
+}

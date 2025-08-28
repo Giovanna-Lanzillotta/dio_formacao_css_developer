@@ -1,0 +1,10 @@
+p:target{
+    background-color: gold;
+    color: darkcyan;
+}
+
+p:target::before{
+    content: "↪";
+    color: darkred;
+    margin-right: 10px;
+}

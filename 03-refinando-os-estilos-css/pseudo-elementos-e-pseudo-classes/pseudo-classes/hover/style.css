@@ -1,0 +1,40 @@
+button{
+    background-color: thistle;
+    border: none;
+    padding: 8px 14px;
+    color: darkmagenta;
+}
+
+button:hover{
+    background-color: rosybrown;
+    color: darkblue;
+    border: 1px solid darkblue;
+    cursor: pointer;
+}
+
+.container{
+    width: 100px;
+    height: 100px;
+    background-color: bisque;
+    margin-top: 30px;
+}
+
+.container:hover{
+    background: url('/images/baixados.png') no-repeat;
+    background-size: cover;
+}
+
+.container-2{
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+    margin-top: 30px;
+}
+
+.container-2 button:hover{
+    background-color: aquamarine;
+    color: darkgreen;
+    border: 1px solid darkolivegreen;
+    cursor: pointer;
+}
+

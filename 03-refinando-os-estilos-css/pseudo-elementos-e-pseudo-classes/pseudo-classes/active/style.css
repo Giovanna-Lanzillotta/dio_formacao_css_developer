@@ -1,0 +1,27 @@
+button{
+    background-color: hotpink;
+    color: darkviolet;
+    padding: 8px 14px;
+    border: none;
+}
+
+button:hover{
+    background-color: cyan;
+    color: blue;
+}
+
+button:active{
+    background-color: darkviolet;
+    color: azure;
+    border: 5px solid magenta;
+}
+
+a:active{
+    background-color: black;
+    color: azure;
+}
+
+h1:active{
+    background-color: tomato;
+    color: darkred;
+}
