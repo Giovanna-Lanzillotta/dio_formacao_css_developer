@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>required e option</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Pseudo-classes:</h1>
+    <div>
+        <input type="checkbox" name="invalid">
+        <label for="invalid">:required</label>
+    </div>
+
+    <div>
+        <input type="checkbox" name="valid">
+        <label for="valid">:option</label>
+    </div>
+
+    <hr>
+    
+    <form>
+        <h3>Faça sua compra:</h3>
+        <label for="email">Email:</label>
+        <input type="email" name="email"
+        required>
+    
+        <label for="codigo-produto">Código Produto:</label>
+        <input 
+        type="number" 
+        name="codigo-produto"
+        min="1000"
+        required>
+        
+        <label for="cupom">Cupom de Desconto:</label>
+        <input 
+        type="text"
+        name="text"
+        pattern="[a-z]+"
+        placeholder="Apenas letras minúsculas">
+
+        <label for="data-nascimento">Data de Nascimento:</label>
+        <input type="date"
+        name="data-nascimento"
+        max="2004-01-01"
+        min="1910-01-01"
+        required>
+        
+
+        <label for="quantidade">Quantidade</label>
+        <input 
+        type="number"
+        min="3"
+        max="10">
+       
+
+        <label>
+            <input type="checkbox" required>
+            <span>Li e aceito os termos de uso</span>
+        </label>
+
+        <button type="submit">Comprar</button>
+
+
+     </form>
+
+</body>
+</html>

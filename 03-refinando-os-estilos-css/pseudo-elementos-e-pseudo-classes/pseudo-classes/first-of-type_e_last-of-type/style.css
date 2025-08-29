@@ -1,0 +1,28 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type="checkbox"]:checked + label{
+    text-decoration: line-through;
+}
+
+article :first-of-type { /*primeiros elementos de um tipo especifico*/
+    color: orange;
+}
+
+article p:first-of-type{
+    background-color: cadetblue;
+}
+
+
+article p:first-of-type{
+    background-color: cadetblue;
+}
+
+article .exemplo:first-child{
+    text-decoration: underline;
+}
+
+article :last-of-type{
+    color: rgb(143, 0, 143);
+}
