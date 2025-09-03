@@ -1,0 +1,38 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type="checkbox"]:checked + label{
+    text-decoration: line-through;
+}
+
+li:nth-last-child(2){
+    font-weight: bold;
+    color: darkblue;
+}
+
+li:nth-last-child(2n){
+    text-decoration: underline;
+    background-color: palegoldenrod;
+}
+
+li:nth-last-child(-n+3){ /*começa debaixo para cima os 3 primeiros */
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+li:nth-last-child(even){
+font-family: cursive;
+}
+
+dd:nth-last-of-type(3n){ /*debaixo para cima*/
+    color: red;
+}
+
+dl :nth-last-of-type(1){ 
+    color: darkorchid;
+}
+
+dl :nth-last-of-type(2){ 
+    color: palevioletred;
+}
