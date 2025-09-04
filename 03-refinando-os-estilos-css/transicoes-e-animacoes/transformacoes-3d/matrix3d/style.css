@@ -1,0 +1,31 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(247, 247, 247);
+    
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    perspective: 300px;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    position: absolute;
+    background: linear-gradient(90deg, #99c7a0 0%, #ca7aff 100%);
+
+    transform: scaleX(1.5) scaleY(0.6) scaleZ(3) rotateX(13deg) rotateY(48deg) rotateZ(32deg) translateX(19px) translateY(17px) translateZ(5px) skewX(39deg) skewY(25deg);
+    transform: matrix3d(
+    -1.2, 0.4, 1, -0.002,
+    0.2, -0.4, -0.4, 0.003,
+    -1.8, -0.7, -0.2, 0.001,
+    25, -40, -105, 1)
+}
+
+/* https://www.cssportal.com/css-3d-transform-generator/ */
+
+/* https://ramlmn.github.io/visualizing-matrix3d/ */
