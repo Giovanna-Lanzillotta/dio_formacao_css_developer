@@ -1,0 +1,50 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(247, 247, 247);
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    background: crimson;
+    animation-name: change-background;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: 3;
+    animation-iteration-count: infinite;
+
+    animation-direction: normal ; /*padrão*/
+    animation-direction: reverse;
+    animation-direction: alternate;
+    animation-direction: alternate-reverse;
+
+    animation-timing-function: linear;
+    animation-timing-function: ease-in;
+}
+
+@keyframes change-background{
+
+    0%{
+        background: blue;
+        width: 200px;
+        height: 200px;
+    }
+
+    50%{
+        background: yellow;
+        width: 500px;
+        height: 400px;
+    }
+
+    100%{
+        background: red;
+        width: 100px;
+        height: 200px;
+    }
+}

@@ -1,0 +1,47 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(247, 247, 247);
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    background: crimson;
+    animation-name: change-background;
+    animation-duration: 10s;
+}
+
+@keyframes change-background{
+    /* from{
+        background: palegoldenrod;
+    }
+
+    to{
+        background: gold;
+    } */
+
+    0%{
+        background: blue;
+        width: 200px;
+        height: 200px;
+    }
+
+    50%{
+        background: yellow;
+        width: 500px;
+        height: 400px;
+        border-radius: 50%;
+    }
+
+    100%{
+        background: red;
+        width: 100px;
+        height: 200px;
+    }
+}
