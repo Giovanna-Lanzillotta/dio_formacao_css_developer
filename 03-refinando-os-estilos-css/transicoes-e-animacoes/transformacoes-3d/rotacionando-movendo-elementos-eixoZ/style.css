@@ -1,0 +1,27 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(247, 247, 247);
+    
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    perspective: 300px;
+}
+
+.box{
+    background: linear-gradient(90deg, #1df0ff 0%, #14ff89 100%);
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+
+    transform: rotatez(30deg);
+    transform: rotateX(20deg) rotateY(40deg) rotateY(20deg);
+    transform: translateZ(0px);
+    transform: translateZ(20px);
+    transform: translateZ(100px);
+    transform: translateZ(-200px);
+    transform: translateZ(100px) rotateX(20deg) ;
+}
