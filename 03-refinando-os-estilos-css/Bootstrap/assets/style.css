@@ -1,13 +1,23 @@
+:root{
+    --bs-link-color:#b6a400;
+    --bs-link-hover-color: #6c6b14;
+}
+
+
 .btn{
-    --bs-btn-bg: #198754;
-    --bs-btn-border-color: #146c43;
-    --bs-btn-hover-bg: #146c43;
-    --bs-btn-hover-border-color: #146c43;
-    --bs-btn-active-bg: #0c5734;
+    --bs-btn-bg: #7e7c00;
+    --bs-btn-border-color: #666c14;
+    --bs-btn-hover-bg: #636c14;
+    --bs-btn-hover-border-color: #6c6b14;
+    --bs-btn-active-bg: #56570c;
 }
 
 main{
     margin-top: 5rem;
+}
+
+section{
+    scroll-margin-top: 6rem;
 }
 
 .navbar-brand img{
