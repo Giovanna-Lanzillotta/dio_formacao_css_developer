@@ -1,0 +1,380 @@
+  :root {
+    --primary-color: #020228;
+    --secondary-color: #ff00e5;
+    --tertiary-color: #b535f6;
+    --btn-bg-color-gradient: linear-gradient(
+      45deg,
+      #9b34ef 0%,
+      #490cb0 20%,
+      transparent 50%
+    );
+    --btn-link-bg-color: #fff;
+    --btn-link-color: #000;
+    --card-bg-color: linear-gradient(0deg, transparent, #3b1e63);
+    --divider-bg-color: linear-gradient(
+      90deg,
+      #5516ba,
+      rgba(255, 0, 229, 0.5) 80%
+    );
+    --nav-bg-color: rgba(0, 0, 0, 0.3);
+    --text-color: #fff;
+    --link-color: #9e86ff;
+    --form-bg-color: rgba(211, 211, 211, 0.06);
+    --form-field-bg-color: rgba(0, 0, 0, 0.2);
+    --form-field-border: 1px solid rgba(255, 255, 255, 0.7);
+    --form-field-placeholder: rgba(255, 255, 255, 0.7);
+    --form-field-error: rgb(255, 76, 76);
+
+    scroll-behavior: smooth;
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+}
+
+  body{
+    font-family: sans-serif;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+  }
+
+  .menu{
+    margin: 0;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: var(--nav-bg-color);
+  }
+
+  .menu img{
+    width: 30%;
+  }
+
+  .header{
+    margin-bottom: 50px;
+    padding: 100px 0 300px;
+  }
+
+  .header img{
+    width: 50px;
+  }
+
+  .menu button {
+  box-sizing: content-box;
+  padding: 10px 20px; 
+}
+
+.botao_entrar{
+  text-decoration: none;
+  background: var(--nav-bg-color);
+  color: #ffffff;
+  border: none;
+  margin-right: 24px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  letter-spacing: 2px; 
+
+}
+
+.botao_assine {
+  text-decoration: none;
+  background: var(--tertiary-color);
+  color: #ffffff;
+  padding: 8px 16px;
+  margin-right: 24px;
+  border: 2px solid var(--tertiary-color); 
+  border-radius: 500px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  letter-spacing: 1px; 
+}
+
+.botao_assine:hover{
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+}
+
+/*HEADER*/
+
+.header{
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  flex-direction: column;
+  font-family: sans-serif;
+
+}
+
+.header .content img{
+  padding: 10px 10px;
+}
+
+.header .titulo{
+  color: var(--text-color);
+}
+
+.linha-divisoria{
+  width: 70%;
+  max-width: 700px;
+  height: 5px;
+  background: var(--divider-bg-color);
+}
+
+.preco {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.por-mes {
+  font-size: 20px;
+}
+.assinatura{
+  margin-bottom: 50px;
+}
+
+.button-assinatura{
+  text-decoration: none;
+  background: var(--btn-bg-color-gradient);
+  color: #ffffff;
+  border-radius: 500px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 16px 40px;
+  margin-top: 20px;
+
+  display: inline-block;
+
+  animation: mexe-mexe 2s linear infinite;
+}
+
+.button-assinatura:hover{
+  background-color: var(--primary-color);
+  border:3px solid  #ff00e5;
+}
+
+/*MAIN*/
+
+.titulo{
+  text-align: center;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+/*cards*/
+
+.planos{
+  display: flex;
+  flex-direction: row;
+  gap:30px;
+}
+
+.card{
+  width: 600px;
+  background: var(--card-bg-color);
+  padding: 40px 60px;
+  border-radius: 8px;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 20px;
+   transition: transform 1s ease-in-out;
+}
+
+.card:hover{
+   transform: scale(1.05); 
+ 
+}
+
+.card-titulo{
+  font-size: 30px;
+  font-weight: bold;
+  margin-right: 50px;
+}
+
+.card-assinatura{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+  align-items: self-end;
+}
+
+.card-preco{
+  color: #ff00e5;
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 100px;
+}
+
+.card-preco span{
+  color: #ffffff;
+  font-size: 15px;
+}
+
+.card-textos li{
+  padding: 0 0 0 14px;
+  margin: 0 0 14px;
+  font-size: 20px;
+  list-style: square;
+}
+
+.botao-card{
+  text-decoration: none;;
+  background: var( --btn-bg-color-gradient);
+  color: var(--btn-link-bg-color);
+  border-radius: 500px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 16px 40px;
+}
+
+/*card das imagens da serie*/
+
+.card-series{
+  display: flex;
+  flex-direction: row;
+  gap:30px;
+  justify-content: center;
+  align-self: center;
+  padding-bottom: 30px;
+}
+
+.card-imagem img {
+  width: 304px; 
+  height: auto;
+}
+
+.card-imagem {
+    position: relative; /* Essencial para posicionar as imagens uma em cima da outra */
+    width: 304px; /* Ou a largura que você está usando para as suas imagens */
+    height: auto; /* Ou a altura correspondente */
+    overflow: hidden; /* Garante que nada saia do container */
+  
+    width: 304px; 
+    height: 456px; /* Defina um valor de altura Fixo aqui! */
+
+}
+
+.card-imagem .imagem-normal,
+.card-imagem .imagem-hover {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%; height: 100%;
+    transition: opacity 0.3s ease-in-out; 
+}
+.card-imagem .imagem-normal {
+    opacity: 1; /* Visível por padrão */
+}
+
+.card-imagem .imagem-hover {
+    opacity: 0; /* Escondida por padrão */
+}
+
+/* Quando o mouse passa sobre o .card-imagem */
+.card-imagem:hover .imagem-normal {
+    opacity: 0; /* Esconde a imagem normal */
+}
+
+.card-imagem:hover .imagem-hover {
+    opacity: 1; /* Mostra a imagem de hover */
+}
+
+
+/*FOOTER */
+
+footer{
+  display: flex;
+  flex-direction: column;
+    text-align: center;
+  justify-content: center;
+   color: var(--link-color);
+}
+
+footer p{
+  font-size: 12px;
+}
+
+.lista-footer{
+  display: flex;
+  flex-direction: row;
+    text-align: center;
+  justify-content: center;
+   gap: 30px;
+
+     list-style: none;
+  text-transform: uppercase;
+   font-weight: bold;
+
+}
+
+.lista-footer li:hover{
+  color: #ffffff;
+  cursor: pointer;
+}
+
+
+.lista-footer a{
+  text-decoration: none;
+}
+
+.redes-sociais ul{
+  display: flex;
+  flex-direction:row ;
+  text-align: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.redes-sociais li{
+    list-style: none;
+}
+
+
+.fa-brands {
+    font-size: 20px; 
+}
+
+.fab,
+.fa-brands:hover {
+  color: #ffffff;
+}
+
+
+
+
+/* ANIMAÇÕES*/
+
+@keyframes mexe-mexe {
+  0%,
+  10% {
+    transform: rotate(0);
+  }
+  15% {
+    transform: rotate(-15deg);
+  }
+  20% {
+    transform: rotate(10deg);
+  }
+  25% {
+    transform: rotate(-10deg);
+  }
+  30% {
+    transform: rotate(10deg);
+  }
+  35% {
+    transform: rotate(-10deg);
+  }
+  40%,
+  100% {
+    transform: rotate(0);
+  }
+}
